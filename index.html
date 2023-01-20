@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simpsons Fan Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Simpsons Fan Page</h1>
+    <main>
+        <input type="text" id="char-search" placeholder="Search Characters..">
+        <button id="search-button">GO</button>
+        <button id="reset">RESET</button>
+        <div id="character-cards">
+            <div id="homer" class="character">
+                <h3>Homer Simpson</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png" alt="Homer Simpson">
+                <button class="bio homer-bio">Bio</button>
+                <button class="status homer-status">Status</button>
+                <p id="homer-bio" class="bio homer-bio">Homer is the sometimes dimwitted father who likes to strangle his son. Expert mixologist, lover of doughnuts, prototypical power-hitting left-fielder.</p>
+                <p id="homer-status" class="status homer-status">Alive</p>
+            </div>
+            <div id="marge" class="character">
+                <h3>Marge Simpson</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/en/0/0b/Marge_Simpson.png" alt="Marge">
+                <button class="bio marge-bio">Bio</button>
+                <button class="status marge-status">Status</button>
+                <p id="marge-bio" class="bio marge-bio">Marge is the long-suffering matriarch of the Simpson family. She is often the voice of reason amidst the chaos. Has perhaps the most iconic hair of all time.</p>
+                <p id="marge-status" class="status marge-status">Alive</p>
+            </div>
+            <div id="bart" class="character">
+                <h3>Bart Simpson</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png" alt="">
+                <button class="bio bart-bio">Bio</button>
+                <button class="status bart-status">Status</button>
+                <p id="bart-bio" class="bio bart-bio">Bart is the troublemaking eldest child. Quite soft underneath his bravado and antics. Staunch opponent to cow ownership</p>
+                <p id="bart-status" class="status bart-status">Alive</p>
+            </div>
+            <div id="lisa" class="character">
+                <h3>Lisa Simpson</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/en/e/ec/Lisa_Simpson.png" alt="">
+                <button class="bio lisa-bio">Bio</button>
+                <button class="status lisa-status">Status</button>
+                <p id="lisa-bio" class="bio lisa-bio">Lisa is the smart, headstrong second child. While intellectually brilliant, she can sometimes be naive, or idealistic to a fault. She also is a mean saxophone player.</p>
+                <p id="lisa-status" class="status lisa-status">Alive</p>
+            </div>
+            <div id="burns" class="character">
+                <h3>Mr. Burns</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Mr_Burns.png" alt="">
+                <button class="bio burns-bio">Bio</button>
+                <button class="status burns-status">Status</button>
+                <p id="burns-bio" class="bio burns-bio">Montgomery Burns is the owner of the local power plant and Homer's boss. Incredibly greedy. Possibly immortal. Incredibly accomplished baseball manager.</p>
+                <p id="burns-status" class="status burns-status">Alive</p>
+            </div>
+            <div id="sideshow" class="character">
+                <h3>Sideshow Bob</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/C-bob.png/220px-C-bob.png" alt="">
+                <button class="bio sideshow-bio">Bio</button>
+                <button class="status sideshow-status">Status</button>
+                <p id="sideshow-bio" class="bio sideshow-bio">Krusty's former assistant. Brilliant theatrical performer with a bit of a mean streak. Harbors a deadly grudge against Bart.</p>
+                <p id="sideshow-status" class="status sideshow-status">Alive</p>
+            </div>
+        </div>
+    </main>
+    <script src="js/app.js"></script>
+</body>
+</html>

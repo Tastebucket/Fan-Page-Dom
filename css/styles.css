@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background-image: url('https://i.pinimg.com/originals/7d/a6/96/7da696f1987d39249d42946f331ccc1b.jpg');
+}
+
+h1 {
+    color: yellow;
+    font-size: 50px;
+}
+h1, h3 {
+    font-family: 'Rock Salt', cursive;
+}
+
+#character-cards {
+    display: grid;
+    gap: 1em;
+    grid-template-rows: .5fr .5fr;
+    grid-template-columns: .3fr .3fr .3fr;
+}
+
+.character{
+    background-color: chocolate;
+    text-align: center;
+    /* height: 300px; */
+    width: 200px;
+
+}
+.character img{
+    display: block;
+    margin: 0 auto;
+    height: 150px;
+}
+
+button {
+    margin: 25px 10px;
+    display: inline-block;
+}
+#reset{
+    display: none;
+}
+.character p{
+    display: none;
+}
+
+p:hover{
+    color: yellow
+}
